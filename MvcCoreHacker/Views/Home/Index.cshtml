@@ -3,6 +3,16 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <form method="post"
+          action="https://localhost:7069//Tienda/Productos">
+        <input type="hidden" name="direccion" value="Casita del Hacker" />
+        <input type="hidden" name="producto" value="Tesla 40.000€" />
+        <input type="hidden" name="producto" value="IPhone 25 5.000€" />
+        <input type="hidden" name="producto" value="Ordenador Gaming 2.500€" />
+        <input type="hidden" name="producto" value="Arbitros Negreira 900.000€" />
+        <button class="btn btn-danger">Juega conmigo...</button>
+    </form>
+    <h1>Pagina de videojuegos</h1>
+    <img src="https://static.eldiario.es/clip/f1b72756-9e78-4e4f-9234-c563da87bcdb_16-9-discover-aspect-ratio_default_0.jpg"
+         style="width:300px; height: 300px" />
 </div>
